@@ -3,14 +3,14 @@
     --color-secondary: #2c3e50;
     --color-tertiary: #ffffff;
     --color-quaternary: #e74c3c;
-    --color-quinary: #3498db;
+    --color-quinary: #29d774;
     --color-senary: #ff0011;
 }
 
 *{
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
    
 }
 
@@ -62,4 +62,28 @@ main{
     color: var(--color-secondary);
     font-size: 1.5rem;
     font-weight: 400;
+}
+.about{
+    background-color:#089949;
+    width: 100%;
+    color: white;
+}
+.about-footer{
+    font-weight: 500;
+}
+.tech-h2{
+    color: var(--color-secondary);
+    font-weight: 600;
+}
+.tech-hr{
+    background-color:red;
+   height: 4px;
+   border: none;
+   margin-left: 500px;
+   margin-right: 500px;
+   
+}
+.footer{
+    background-color: #0b0d1f;
+    color: white;
 }
