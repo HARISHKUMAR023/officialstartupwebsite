@@ -20,7 +20,7 @@
     position: fixed;
     width: 100%;
     z-index: 1000;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 2px solid rgba(0,0,0,0.1);
 }
 .nav-item > a{
     font-weight: 600;
@@ -83,7 +83,19 @@ main{
    margin-right: 500px;
    
 }
+.tech-p{
+    color:var(--color-secondary);
+    font-weight: 500;
+    
+}
+.made-in-india{
+    background-color: #023264;
+    color: white;
+}
 .footer{
     background-color: #0b0d1f;
     color: white;
+}
+a{
+    text-decoration: none;
 }
